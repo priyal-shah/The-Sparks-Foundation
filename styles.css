@@ -1,0 +1,137 @@
+
+*{
+	font-family: cursive;
+}
+header{
+	background-color: #27282b;
+}
+ul{
+	text-decoration: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+li a{
+	color: #fafafa;
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+	display: block;
+	border-radius: 15px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 130%;
+
+}
+li a:hover{
+	color: #fafafa;
+	background-color: grey;
+	text-decoration: none;
+}
+
+body{
+	background-color: pink;
+
+}
+
+/*changing image*/
+@keyframes images{
+	0%{background-image: url(./img/img4.jfif); background-repeat: no-repeat;
+		background-size: cover;}
+	25%{ background-image: url(./img/img7.jpg); background-repeat: no-repeat;
+		background-size: cover; }
+	50%{ background-image: url(./img/img8.jfif); background-repeat: no-repeat;
+		background-size: cover; }
+	100%{ background-image: url(./img/img9.jfif);  background-repeat: no-repeat;
+		background-size: cover;}
+}
+
+#imganimation{
+	position: relative;
+	border: 1% solid black;
+	border-radius: 5%;
+	margin-top: 2%;
+	min-height: 250px;
+	box-shadow: 10px 10px 10px  #353b37;
+	animation-name: images;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+ 
+ .quote{
+ 	margin:10%;
+ 	font-size: 150%;
+ }
+
+ /*donate btn*/
+.btn{
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px black;
+	cursor: pointer;
+	background-color:lightblue;
+
+}
+.btn a{
+	text-decoration: none;
+	color: black;
+}
+
+button:hover{
+	background-color:#4bd624;
+	border: 2px black;
+
+}
+
+
+.imgdiv {
+	margin-top: 5%;
+	border: 1% solid black;
+	border-radius: 10px;
+}
+.sencdiv{
+	display: block;
+	border: 2px solid black;
+	background-color: burlywood;
+	box-shadow: 2px 2px 2px black;
+}
+
+
+
+/*contact us page*/
+form{
+	display: block;
+	border: 2px solid black;
+	box-shadow:5px 5px 4px black;
+	margin: 4%;
+	padding: 3%;
+	background-color: floralwhite;
+}
+
+form div{
+	margin-top: 5%;
+}
+
+
+.give{
+	margin-top: -15%;
+	height: 30%;
+}
+
+
+@keyframes donateimg{
+ 0%{ right: 2%;}
+ 100%{right: 30%;}
+}
+.donate{
+	border-radius: 100%;
+	box-shadow: 5px 5px 5px black;
+	animation-name: donateimg;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
