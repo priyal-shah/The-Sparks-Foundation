@@ -130,8 +130,12 @@ form div{
 	border-radius: 100%;
 	box-shadow: 5px 5px 5px black;
 	animation-name: donateimg;
-	animation-duration: 3s;
+	animation-duration: 2s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 }
 
+footer{
+	color: #fafafa;
+	background-color: #27282b;
+}
