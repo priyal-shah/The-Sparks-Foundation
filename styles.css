@@ -1,6 +1,6 @@
 
 *{
-	font-family: cursive;
+	font-family: sans-serif;
 }
 header{
 	background-color: #27282b;
@@ -31,7 +31,7 @@ li a:hover{
 }
 
 body{
-	background-color: pink;
+	background-color: #99e1f0;
 
 }
 
@@ -72,7 +72,8 @@ body{
 	border-radius: 15px;
 	box-shadow: 5px 5px 5px black;
 	cursor: pointer;
-	background-color:lightblue;
+	background-color:#38d3f2;
+	width: 120%;
 
 }
 .btn a{
